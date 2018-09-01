@@ -1,0 +1,81 @@
+$light-grey: #ebeef0;
+$white: #fff;
+$light-blue: #44a3db;
+$margin-main-content-left: 40px;
+
+body {
+  background-color: $light-grey;
+  margin-bottom: 45px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: normal;
+}
+
+.backround-white {
+  background-color: $white;
+}
+
+.toggleBar {
+  height: 30px;
+  background-color: #f8f8f8;
+}
+
+.place-tab {
+  background-color: #c9ffdb;
+}
+
+/// !IMPORTANT - PLEASE CHECK THIS PROPS IF THEY NEEDED
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+}
+
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center;
+}
+
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+.file-input {
+  display: none;
+}
+
+.drop-area {
+  border: 2px dashed #ccc;
+  width: 480px;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 20px;
+  color: #44a3db;
+}
+
+.drop-area.highlight {
+  border-color: purple;
+}
+
+.labelFile {
+  background-color: white !important;
+  border: none !important;
+}
+
+/// !IMPORTANT - END OF CHECK
+
+.w-47{
+  width: 47.5% !important;
+}
+
+textarea {
+  resize: none;
+}
