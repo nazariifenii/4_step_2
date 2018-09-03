@@ -47,18 +47,18 @@
 								</svg>
 							</span>
 						</div>
-						<input type="text" class="form-control px-1 text-center" placeholder="ГГ:ММ" aria-describedby="basic-addon1">
+						<input type="time" class="form-control px-1 text-center" placeholder="ГГ:ММ" aria-describedby="basic-addon1">
 					</div>
-					<span class="mx-2 d-flex align-items-center">-</span>
-					<input class="form-control col-lg-2 col px-1 text-center" type="text" placeholder="ГГ:ММ">
-					<input class="form-control col-lg col-11 mr-lg-2 ml-lg-2 mt-lg-0 mt-3" type="text" placeholder="Название / тема выступления">
-					<svg class="text-danger ml-auto mt-lg-0 mt-3" id="i-close" viewBox="0 0 32 32" width="10" height="10" fill="none" stroke="currentcolor" stroke-linecap="round"
+					<span class="mx-1 d-flex align-items-center">-</span>
+					<input class="form-control col px-1 text-center" type="time" placeholder="ГГ:ММ">
+					<input class="form-control col-xl-8 col-11 mr-xl-2 ml-xl-2 mt-xl-0 mt-3" type="text" placeholder="Название / тема выступления">
+					<svg class="text-danger ml-auto mt-xl-0 mt-3" id="i-close" viewBox="0 0 32 32" width="10" height="10" fill="none" stroke="currentcolor" stroke-linecap="round"
 					 stroke-linejoin="round" stroke-width="2">
 						<path d="M2 30 L30 2 M30 30 L2 2" />
 					</svg>
 				</div>
 				<div class="row">
-					<div class="d-flex align-items-center text-primary col-2 pl-1">
+					<div class="d-flex align-items-center text-primary col pl-1">
 						<svg id="i-user" viewBox="0 0 32 32" width="12" height="12" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
 						 stroke-width="2">
 							<path d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z"
@@ -71,7 +71,7 @@
 						</svg>
 					</div>
 					<span class="mx-2 d-flex align-items-center invisible">-</span>
-					<div class="col-md-8 col-11 ml-md-0 ml-2 d-flex align-items-center text-primary px-0">
+					<div class="col-xl-8 col-11 pl-xl-auto mr-xl-3 ml-md-0 ml-2 d-flex align-items-center text-primary px-0">
 						<p class="m-0"><small>Регистрация</small></p>
 						<span class="mx-2 text-muted font-12">|</span>
 						<p class="m-0"><small>Кофе брэйк</small></p>
@@ -104,15 +104,38 @@
 					<input class="form-control w-47 mt-xl-0 mt-3" type="text" placeholder="Компания, должность">
 				</div>
 				<div class="row mt-3 d-flex justify-content-between">
+					<input class="form-control w-47" type="text" placeholder="Номер телефона">
+					<input class="form-control w-47 mt-xl-0 mt-3" type="text" placeholder="Почта">
+				</div>
+				<div class="row mt-3 d-flex justify-content-between">
 					<textarea class="form-control w-47" id="exampleTextarea" rows="3" placeholder="О спикере"></textarea>
 					<div class="w-47 d-flex flex-column justify-content-between mt-xl-0 mt-3">
-						<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+						<input class="form-control" type="text" placeholder="Домашня сторніка">
+						<div class="input-group mb-2 mr-sm-2 mb-sm-0 mt-xl-0 mt-3">
 							<div class="input-group-addon"><img class="h-100 w-100" src="./img/facebook-link-logo.png" alt="fb-logo"></div>
 							<input type="text" class="form-control h-100" id="inlineFormInputGroup" placeholder="Ссылка на акаунт в Facebook">
 						</div>
-						<div class="input-group mb-2 mr-sm-2 mb-sm-0 mt-xl-0 mt-3">
+					</div>
+				</div>
+				<div class="row mt-3 d-flex justify-content-between">
+					<div class="w-47 d-flex flex-column justify-content-between ">
+						<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+							<div class="input-group-addon"><img style="height: 35px; width: 32px;" src="./img/googleplus-link-logo.png" alt="fb-logo"></div>
+							<input type="text" class="form-control h-100" id="inlineFormInputGroup" placeholder="Ссылка на акаунт в GooglePlus">
+						</div>
+						<div class="input-group mb-2 mr-sm-2 mb-sm-0 mt-3">
 							<div class="input-group-addon"><img class="h-100 w-100" src="./img/twitter-link-logo.png" alt="tw-logo"></div>
 							<input type="text" class="form-control h-100" id="inlineFormInputGroup" placeholder="Ссылка на акаунт в Twitter">
+						</div>
+					</div>
+					<div class="w-47 d-flex flex-column justify-content-between mt-xl-0 mt-3">
+						<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+							<div class="input-group-addon"><img style="height: 35px; width: 32px;" src="./img/linkedin-link-logo.jpg" alt="fb-logo"></div>
+							<input type="text" class="form-control h-100" id="inlineFormInputGroup" placeholder="Ссылка на акаунт в LinkedIn">
+						</div>
+						<div class="input-group mb-2 mr-sm-2 mb-sm-0 mt-3">
+							<div class="input-group-addon"><img style="height: 35px; width: 32px;" src="./img/youtube-link-logo.jpg" alt="tw-logo"></div>
+							<input type="text" class="form-control h-100" id="inlineFormInputGroup" placeholder="Ссылка на акаунт в YouTube">
 						</div>
 					</div>
 				</div>
